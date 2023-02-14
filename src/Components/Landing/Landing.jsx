@@ -3,7 +3,9 @@ import Navbar from '../Navbar/Navbar'
 
 const Landing = () => {
   return (
-    <Navbar />
+    <>
+      <Navbar />
+    </>
   )
 }
 

@@ -1,22 +1,16 @@
-import React, { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const CartWidget = () => {
-  const [selectedItems, setSelectedItems] = useState(0);
-
-  const handleItemSelection = () => {
-    setSelectedItems(selectedItems + 1);
-  };
-
   return (
-    <div className="cart-container">
-      <button className="shop-btn" onClick={handleItemSelection}>
-        <FontAwesomeIcon icon={faCartShopping} />
-        <span className="selected-items">{selectedItems}</span>
-      </button>
+    <div style={{ display: 'flex', alignItems: 'center' }}>
+      <FontAwesomeIcon icon={faShoppingCart} style={{ marginRight: '10px' }} />
+      <div style={{ backgroundColor: '#CFCEB6', color: '#000', width: '20px', height: '20px', borderRadius: '10px', textAlign: 'center' }}>
+        1
+      </div>
     </div>
   );
 };
 
-export default CartWidget
+export default CartWidget;

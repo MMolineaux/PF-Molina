@@ -1,12 +1,4 @@
-.shop-btn {
-    border: none;
-}
-
-.shop-btn:hover {
-    border-bottom: solid 1px #000;
-}
-
 .nav-link:hover {
-    border-bottom: solid 2px #000;
+    border-bottom: solid 2px #CFCEB6;
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
