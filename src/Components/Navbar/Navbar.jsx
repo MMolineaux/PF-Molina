@@ -23,11 +23,11 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
+                 <CartWidget />
                 </div>
             </nav>
 
 
-            <CartWidget />
         </>
 
     )
