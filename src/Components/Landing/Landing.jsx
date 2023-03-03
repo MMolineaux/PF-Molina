@@ -1,12 +1,9 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
 
 const Landing = () => {
-  return (
-    <>
-      <Navbar />
-    </>
-  )
+
+  <ItemListContainer />
+  
 }
 
 export default Landing

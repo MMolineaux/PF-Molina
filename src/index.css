@@ -2,8 +2,3 @@
     border-bottom: solid 2px #CFCEB6;
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
-.greeting-container {
-    text-align: center;
-    padding: 15px;
-}

@@ -4,12 +4,12 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const CartWidget = () => {
   return (
-    <div style={{ display: 'flex', alignItems: 'center' }}>
+    <button style={{display: 'flex', alignItems: 'center', borderStyle: 'none' }}>
       <FontAwesomeIcon icon={faShoppingCart} style={{ marginRight: '10px' }} />
-      <div style={{ backgroundColor: '#CFCEB6', color: '#000', width: '20px', height: '20px', borderRadius: '10px', textAlign: 'center' }}>
+      {/* <div style={{ backgroundColor: '#CFCEB6', color: '#000', width: '20px', height: '20px', borderRadius: '10px', textAlign: 'center' }}>
         1
-      </div>
-    </div>
+      </div> */}
+    </button>
   );
 };
 

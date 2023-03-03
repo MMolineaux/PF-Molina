@@ -16,14 +16,26 @@ const Navbar = () => {
                                 <a className="nav-link nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link nav-link" href="#">Collections</a>
-                            </li>
-                            <li className="nav-item">
                                 <a className="nav-link nav-link" href="#">Featured artists</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categories
+                                </a>
+                                <ul className="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Sculptures</a></li>
+                                    <li><a className="dropdown-item" href="#">Renaissance</a></li>
+                                    <li><a className="dropdown-item" href="#">Portraits</a></li>
+                                    <li><a className="dropdown-item" href="#">Oils</a></li>
+                                    <li><a className="dropdown-item" href="#">Photography</a></li>
+                                    <li><a className="dropdown-item" href="#">Surrealism</a></li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
-                 <CartWidget />
+
+                    <CartWidget />
+                    
                 </div>
             </nav>
 
