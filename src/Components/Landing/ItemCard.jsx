@@ -18,3 +18,4 @@ const ItemCard = ({ product }) => {
 
 export default ItemCard
 
+
