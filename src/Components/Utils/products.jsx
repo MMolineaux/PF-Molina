@@ -80,7 +80,7 @@ const products = [
 
     },
     {
-        id: 12,
+        id: 11,
         name: "Dishdda",
         price: 15000,
         cat: "surrealism",
