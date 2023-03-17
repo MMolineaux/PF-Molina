@@ -1,0 +1,5 @@
+1. Agregar rutas a los items
+2. Agregar ItemDetail
+3. Cart context
+4. Cart widget
+5. Checkout

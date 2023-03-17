@@ -91,9 +91,9 @@ const products = [
 const getList = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve(products);
+            products.length > 0 ? resolve(products) : reject("La lista de productos está vacía");
         }, 1500);
-    })
-}
+    });
+};
 
 export default getList;
