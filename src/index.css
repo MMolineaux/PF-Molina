@@ -1,10 +1,13 @@
+
+
 .nav-link:hover {
     border-bottom: solid 3px #CFCEB6;
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    padding-bottom: 5px;
 }
 
 .pieces-h2:hover {
     border-bottom: solid 5px #CFCEB6;
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
     cursor: default;
 }
