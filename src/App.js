@@ -14,6 +14,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
+          
           <Route exact path="/" element={<Landing />} />
 
           <Route exact path="/FtArtists" element={<FtArtists message={message} />} />
