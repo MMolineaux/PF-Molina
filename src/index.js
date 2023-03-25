@@ -4,6 +4,7 @@ import App from './App';
 import './index.css';
 import { initializeApp } from "firebase/app";
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyDJvtPaOdDX7UW_Noa3V9_EppILUvKFPis",
   authDomain: "ecommerce-test-coder.firebaseapp.com",

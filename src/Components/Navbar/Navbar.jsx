@@ -22,19 +22,19 @@ const Navbar = () => {
                                 <Link to={'/ftArtists'} className="nav-link nav-link" >Featured Artists</Link>
 
                             </li>
-                            <li class="nav-item dropdown">
+                            <li className="nav-item dropdown">
 
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Categories
                                 </a>
                                 
                                 <ul className="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Sculptures</a></li>
-                                    <li><a className="dropdown-item" href="#">Renaissance</a></li>
-                                    <li><a className="dropdown-item" href="#">Portraits</a></li>
-                                    <li><a className="dropdown-item" href="#">Oils</a></li>
-                                    <li><a className="dropdown-item" href="#">Photography</a></li>
-                                    <li><a className="dropdown-item" href="#">Surrealism</a></li>
+                                    <li><Link to ={'/category:Sculptures'} className="dropdown-item">Sculptures</Link></li>
+                                    <li><Link to ={'/category:Renaissance'} className="dropdown-item">Renaissance</Link></li>
+                                    <li><Link to ={'/category:Portaits'} className="dropdown-item">Portraits</Link></li>
+                                    <li><Link to ={'/category:Oils'} className="dropdown-item">Oils</Link></li>
+                                    <li><Link to ={'/category:Photography'} className="dropdown-item">Photography</Link></li>
+                                    <li><Link to ={'/category:Surrealism'} className="dropdown-item">Surrealism</Link></li>
                                 </ul>
                             </li>
                         </ul>
