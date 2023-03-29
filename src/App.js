@@ -1,9 +1,8 @@
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar/Navbar";
 import Landing from "./Components/Landing/Landing";
 import FtArtists from "./Components/Artists/FtArtists";
-import AppFire from "./Components/Firestore/AppFire";
 
 function App() {
   const message = "Sorry! No featured artists yet!";
@@ -11,9 +10,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-
         <Navbar />
-
 
         <Routes>
 
@@ -22,7 +19,6 @@ function App() {
           <Route exact path="/FtArtist" element={<FtArtists message={message} />}/>
 
         </Routes>
-        <AppFire />
       </BrowserRouter>
     </>
   );
