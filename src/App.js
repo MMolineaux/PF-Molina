@@ -10,13 +10,14 @@ function App() {
   return (
     <>
       <BrowserRouter>
+
         <Navbar />
 
         <Routes>
 
+          <Route exact path="/FtArtist" element={<FtArtists message={message} />}/>
           <Route exact path="/" element={<Landing />} />
 
-          <Route exact path="/FtArtist" element={<FtArtists message={message} />}/>
 
         </Routes>
       </BrowserRouter>
