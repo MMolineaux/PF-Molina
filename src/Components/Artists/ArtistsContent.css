@@ -1,0 +1,32 @@
+.artist-card {
+  margin: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 0.5px #00000033;
+}
+
+.artist-card-pfp {
+  padding: 3vh 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.artist-card-img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+.artist-card-text-container {
+  padding: 3vh 0;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.artist-card-text {
+  width: 100%;
+  padding-right: 10px;
+  font-size: 3vh;
+}

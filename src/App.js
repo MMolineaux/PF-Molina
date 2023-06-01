@@ -19,7 +19,7 @@ function App() {
 
             <Route exact path="/" element={<Landing />} />
 
-            <Route exact path="/FtArtist" element={<FtArtists message={message} />} />
+            <Route exact path="/FtArtists" element={<FtArtists />} />
 
           </Routes>
         </BrowserRouter>

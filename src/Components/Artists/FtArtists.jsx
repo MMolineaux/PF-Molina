@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
+import ArtistsContent from "./ArtistsContent";
 
-const FtArtists = (props) => {
-
+const FtArtists = () => {
   return (
     <>
-    <div>
-      <h2 className='d-flex justify-content-center' style={{paddingTop: '50px'}}>{props.message}</h2>
-    </div>
+      <div>
+        <ArtistsContent />
+      </div>
     </>
   );
-}
+};
 
 export default FtArtists;
